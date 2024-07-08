@@ -6,14 +6,7 @@
  }
  /* share style */
 
- .secondary-background{ background-color: rgb(236, 211, 181); 
-
-        
-
-
-
-}
-
+ .secondary-background{ background-color: rgb(236, 211, 181); }
 
 .text-primary{color: #fd6e0a ;}
 
@@ -27,7 +20,7 @@
 
 .section-description{  font-size: 18px;      color: #757575 ;             }
 
-
+.text-center{text-align: center;}
 
 
 /* nav style */
@@ -81,6 +74,7 @@ nav ul { display: flex;
     /* main style */
      main{ max-width: 1140px; 
      margin: 0 auto;     }
+     main section{ margin-top: 130px ; margin-bottom: 130px;          }
 
 
 
@@ -105,3 +99,14 @@ nav ul { display: flex;
           font-size: 22px;
      margin-top: 0; margin-bottom: 20px;
      }
+
+
+     /* what i do skills */
+
+.skils-container{display: flex;gap: 30px;margin-bottom: 50px;}
+.skill{ padding: 30px;
+box-shadow: 0px 6px 50px 0px black;}
+
+.skills-description{ padding:30px ;                           }
+
+
